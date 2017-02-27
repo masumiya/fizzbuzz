@@ -24,11 +24,6 @@ describe "FizzBuzzテスト" do
           expect(FizzBuzz.new.run(12)).to eq('Fizz')
         end
       end
-      context "対象が15の場合" do
-        it "'Fizz'を返すこと" do
-          expect(FizzBuzz.new.run(15)).to eq('Fizz')
-        end
-      end
       context "対象が18の場合" do
         it "'Fizz'を返すこと" do
           expect(FizzBuzz.new.run(18)).to eq('Fizz')
@@ -47,11 +42,6 @@ describe "FizzBuzzテスト" do
       context "対象が27の場合" do
         it "'Fizz'を返すこと" do
           expect(FizzBuzz.new.run(27)).to eq('Fizz')
-        end
-      end
-      context "対象が30の場合" do
-        it "'Fizz'を返すこと" do
-          expect(FizzBuzz.new.run(30)).to eq('Fizz')
         end
       end
       context "対象が33の場合" do
@@ -74,11 +64,6 @@ describe "FizzBuzzテスト" do
           expect(FizzBuzz.new.run(42)).to eq('Fizz')
         end
       end
-      context "対象が45の場合" do
-        it "'Fizz'を返すこと" do
-          expect(FizzBuzz.new.run(45)).to eq('Fizz')
-        end
-      end
       context "対象が48の場合" do
         it "'Fizz'を返すこと" do
           expect(FizzBuzz.new.run(48)).to eq('Fizz')
@@ -97,11 +82,6 @@ describe "FizzBuzzテスト" do
           expect(FizzBuzz.new.run(10)).to eq('Buzz')
         end
       end
-      context "対象が15の場合" do
-        it "'Buzz'を返すこと" do
-          expect(FizzBuzz.new.run(15)).to eq('Buzz')
-        end
-      end
       context "対象が20の場合" do
         it "'Buzz'を返すこと" do
           expect(FizzBuzz.new.run(20)).to eq('Buzz')
@@ -112,11 +92,6 @@ describe "FizzBuzzテスト" do
           expect(FizzBuzz.new.run(25)).to eq('Buzz')
         end
       end
-      context "対象が30の場合" do
-        it "'Buzz'を返すこと" do
-          expect(FizzBuzz.new.run(30)).to eq('Buzz')
-        end
-      end
       context "対象が35の場合" do
         it "'Buzz'を返すこと" do
           expect(FizzBuzz.new.run(35)).to eq('Buzz')
@@ -125,11 +100,6 @@ describe "FizzBuzzテスト" do
       context "対象が40の場合" do
         it "'Buzz'を返すこと" do
           expect(FizzBuzz.new.run(40)).to eq('Buzz')
-        end
-      end
-      context "対象が45の場合" do
-        it "'Buzz'を返すこと" do
-          expect(FizzBuzz.new.run(45)).to eq('Buzz')
         end
       end
       context "対象が50の場合" do
